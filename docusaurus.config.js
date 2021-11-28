@@ -1,32 +1,20 @@
 module.exports = {
-  title: 'Wiki | Advanced-Kind',
-  tagline: 'Where Advanced-Kind and documentation meet ;)',
+  title: 'Livs World Building',
+  tagline: '',
   url: 'livwiki.netlify.app',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'Advanced-Kind', // Usually your GitHub org/user name.
-  projectName: 'Advanced-Kind Wiki', // Usually your repo name.
+  organizationName: 'LivDoesDevStuf', // Usually your GitHub org/user name.
+  projectName: 'Livs World Building', // Usually your repo name.
   themeConfig: {
     navbar: {
-      title: 'Wiki | Advanced-Kind',
+      title: 'Wiki | Livs World Building',
       logo: {
         alt: 'My Site Logo',
         src: 'img/logo.svg',
       },
-      items: [
-        {
-          href: "https://discord.advanced-kind.com",
-          label: "Discord",
-          position: "right",
-        },
-        {
-          href: "https://web.advanced-kind.com/",
-          label: "Home Page",
-          position: "right",
-        },
-      ],
     }, 
     colorMode: {
       // "light" | "dark"
@@ -61,47 +49,6 @@ module.exports = {
         },
      },
     },      
-    footer: {
-      style: 'dark',
-      links: [
-        {
-          title: 'Recommended Reads',
-          items: [
-            {
-              label: 'Starter Guide',
-              to: 'https://web.advanced-kind.com',
-            },
-          ],
-        },
-        {
-          title: 'Community',
-          items: [
-            {
-              label: 'Webpage',
-              href: 'https://web.advanced-kind.com',
-            },
-            {
-              label: 'Discord',
-              href: 'https://discord.advanced-kind.com',
-            },
-          ],
-        },
-        {
-          title: 'Other ADK Sites',
-          items: [
-            {
-              label: 'Donations',
-              href: 'https://store.advanced-kind.com/',
-            },
-            {
-              label: 'Map',
-              href: 'http://map.advanced-kind.com/',
-            },
-          ],
-        },
-      ],
-      copyright: `Copyright © ${new Date().getFullYear()} Advanced-Kind. Built with love.`,
-    },
   },
   presets: [
     [
@@ -113,7 +60,7 @@ module.exports = {
           routeBasePath: "/", // Set this value to '/'.
           sidebarPath: require.resolve("./sidebars.js"),
           // Please change this to your repo.
-          editUrl: "https://github.com/Advanced-Kind-MC/ADK-wiki",
+          editUrl: "https://github.com/liv-kami/Testing-Wiki",
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
