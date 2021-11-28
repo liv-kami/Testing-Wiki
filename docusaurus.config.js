@@ -1,20 +1,32 @@
 module.exports = {
-  title: 'Wiki | Livs World Building',
-  tagline: 'Liv uwu',
-  url: 'hhttps://livwiki.netlify.app/',
+  title: 'Wiki | Advanced-Kind',
+  tagline: 'Where Advanced-Kind and documentation meet ;)',
+  url: 'https://livwiki.netlify.app/',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'Liv World Building', // Usually your GitHub org/user name.
-  projectName: 'Liv World Building', // Usually your repo name.
+  organizationName: 'Advanced-Kind', // Usually your GitHub org/user name.
+  projectName: 'Advanced-Kind Wiki', // Usually your repo name.
   themeConfig: {
     navbar: {
-      title: 'Wiki | Liv World Building',
+      title: 'Wiki | Advanced-Kind',
       logo: {
         alt: 'My Site Logo',
         src: 'img/logo.svg',
       },
+      items: [
+        {
+          href: "https://discord.advanced-kind.com",
+          label: "Discord",
+          position: "right",
+        },
+        {
+          href: "https://web.advanced-kind.com/",
+          label: "Home Page",
+          position: "right",
+        },
+      ],
     }, 
     colorMode: {
       // "light" | "dark"
@@ -49,6 +61,47 @@ module.exports = {
         },
      },
     },      
+    footer: {
+      style: 'dark',
+      links: [
+        {
+          title: 'Recommended Reads',
+          items: [
+            {
+              label: 'Starter Guide',
+              to: 'https://web.advanced-kind.com',
+            },
+          ],
+        },
+        {
+          title: 'Community',
+          items: [
+            {
+              label: 'Webpage',
+              href: 'https://web.advanced-kind.com',
+            },
+            {
+              label: 'Discord',
+              href: 'https://discord.advanced-kind.com',
+            },
+          ],
+        },
+        {
+          title: 'Other ADK Sites',
+          items: [
+            {
+              label: 'Donations',
+              href: 'https://store.advanced-kind.com/',
+            },
+            {
+              label: 'Map',
+              href: 'http://map.advanced-kind.com/',
+            },
+          ],
+        },
+      ],
+      copyright: `Copyright © ${new Date().getFullYear()} Advanced-Kind. Built with love.`,
+    },
   },
   presets: [
     [
