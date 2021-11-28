@@ -1,7 +1,7 @@
 module.exports = {
   title: 'Livs World Building',
   tagline: '',
-  url: 'livwiki.netlify.app',
+  url: 'https://livwiki.netlify.app/',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
