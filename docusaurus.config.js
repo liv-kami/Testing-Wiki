@@ -1,7 +1,10 @@
 module.exports = {
   title: 'Livs World Building',
   tagline: '',
-  url: 'https://livwiki.netlify.app',
+  url: 'https://livwiki.netlify.app/',
+  title: 'Wiki | Advanced-Kind',
+  tagline: 'Where Advanced-Kind and documentation meet ;)',
+  url: 'https://eager-yalow-16b1ff.netlify.app/',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
