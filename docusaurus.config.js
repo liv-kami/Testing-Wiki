@@ -1,18 +1,16 @@
 module.exports = {
-  title: 'Livs World Building',
-  tagline: '',
-  url: 'https://livwiki.netlify.app',
-  title: 'Wiki | ALivs World Building',
-  tagline: '',
+  title: 'Wiki | Livs World Building',
+  tagline: 'Liv uwu',
+  url: 'hhttps://livwiki.netlify.app/',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'LivDoesDevStuf', // Usually your GitHub org/user name.
-  projectName: 'Livs World Building', // Usually your repo name.
+  organizationName: 'Liv World Building', // Usually your GitHub org/user name.
+  projectName: 'Liv World Building', // Usually your repo name.
   themeConfig: {
     navbar: {
-      title: 'Wiki | Livs World Building',
+      title: 'Wiki | Liv World Building',
       logo: {
         alt: 'My Site Logo',
         src: 'img/logo.svg',
@@ -62,7 +60,7 @@ module.exports = {
           routeBasePath: "/", // Set this value to '/'.
           sidebarPath: require.resolve("./sidebars.js"),
           // Please change this to your repo.
-          editUrl: "https://github.com/liv-kami/Testing-Wiki",
+          editUrl: "https://github.com/Advanced-Kind-MC/ADK-wiki",
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
