@@ -1,7 +1,7 @@
 module.exports = {
   title: 'Wiki | Advanced-Kind',
   tagline: 'Where Advanced-Kind and documentation meet ;)',
-  url: 'https://wiki.advanced-kind.com',
+  url: 'https://eager-yalow-16b1ff.netlify.app/',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
